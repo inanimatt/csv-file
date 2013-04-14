@@ -1,6 +1,8 @@
 <?php
 namespace Inanimatt\File;
 
+use SPLFileObject;
+
 /**
  * CSV file utility class
  * 
