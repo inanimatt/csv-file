@@ -1,0 +1,20 @@
+{
+    "name": "inanimatt/csv-file",
+    "description": "CSV utility class",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Robinson",
+            "email": "matt@inanimatt.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Inanimatt\\File": "" }
+    },
+    "target-dir": "Inanimatt/File",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "develop"
+        }
+    }
+}
