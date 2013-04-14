@@ -1,6 +1,7 @@
 <?php
 namespace Inanimatt\File;
 
+use SPLFileObject;
 /**
  * CSV file utility class
  * 
@@ -15,7 +16,7 @@ namespace Inanimatt\File;
  *     print_r($row);
  * }
  */
-class CSVFile extends \SPLFileObject
+class CSVFile extends SPLFileObject
 {
     protected $first_row = true;
     protected $columns;
