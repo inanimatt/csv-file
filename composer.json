@@ -14,7 +14,7 @@
     "target-dir": "Inanimatt/File",
     "extra": {
         "branch-alias": {
-            "dev-master": "develop"
+            "dev-develop": "1.0.x-dev"
         }
     }
 }
